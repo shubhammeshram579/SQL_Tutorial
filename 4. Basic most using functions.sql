@@ -18,7 +18,7 @@ WHERE  last_name LIKE "%m"
 SELECT * FROM sql_store.customers
 WHERE  last_name LIKE "__s%"
 
-/4. find the cutomer last name start to M caplital FROM cutomer table using regxp */
+/*4. find the cutomer last name start to M caplital FROM cutomer table using regxp */
 SELECT * FROM sql_store.customers
 WHERE last_name REGEXP "^M"
 
