@@ -9,10 +9,10 @@ SELECT first_name, lower(first_name) as Capitalise
 FROM sql_store.customers
 
 
-SELECT first_name, length(first_name) as Capitalise 
+SELECT first_name, LENGTH(first_name) as Capitalise 
 FROM sql_store.customers
 
-SELECT first_name ,substr(first_name,2,3) 
+SELECT first_name ,SUBSTR(first_name,2,3) 
 FROM sql_store.customers
 
 SELECT first_name,last_name,concat(first_name,' ',Last_name) as full_name
